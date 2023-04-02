@@ -4,7 +4,7 @@ $(".screen").text(calculations);
 $("button").on("click", function(event) {
   var currentKey = event.currentTarget.innerHTML;
   if (currentKey == "=") {
-
+ 
     $(".current").text(Math.floor(calculations))
   } else if (currentKey == "AC") {
     calculations = [];
